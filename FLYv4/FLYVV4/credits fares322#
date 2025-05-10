@@ -182,7 +182,7 @@ end)
 
 -- ANTI SIT
 
-local testBtn = createButton(frame, UDim2.new(0.45, 0, 0.25, 0), UDim2.new(0.025, 0, 0.85, 0), "⚠️ANTI-SIT-ضروري تفعله⚠️", Color3.fromRGB(255, 0, 0), Color3.new(1, 1, 1))
+local testBtn = createButton(frame, UDim2.new(0.45, 0, 0.25, 0), UDim2.new(0.025, 0, 0.85, 0), "⚠️ANTI-SIT-مش ضروري تفعله بس لو واجهتك اخطاء فعله⚠️", Color3.fromRGB(255, 0, 0), Color3.new(1, 1, 1))
 
 testBtn.MouseButton1Click:Connect(function()
     -- تغيير اللون إلى الأخضر عند تنفيذ السكربت
